@@ -1,0 +1,264 @@
+.navContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  background-color: transparent !important;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.nav {
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  max-width: 1260px;
+  background-color: transparent !important;
+}
+
+.navLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.15s ease-in-out;
+}
+
+.navMiddle {
+  display: flex;
+  margin-left: 12px;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.secondaryCta {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  transition: background-color 0.2s;
+  width: 280px;
+  border: 1px solid hsla(0, 0%, 100%, 0.25);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.15s ease-in-out;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.homeLink:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.navRight {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage {
+  margin-top: 6px;
+  transition: all 0.15s ease-in-out;
+}
+
+.heroCtaContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.heroCta {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  margin: 16px 0;
+  transition: background-color 0.2s;
+  background-clip: padding-box;
+  background-color: hsla(120, 100%, 50%, 0.9);
+  border-radius: 8px;
+  color: #0d0d0d;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 5px;
+  transition: opacity 0.2s;
+  width: 80px;
+}
+
+.heroCtasell {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  margin: 16px 0;
+  transition: background-color 0.2s;
+  background-clip: padding-box;
+  background-color: hsla(0, 100%, 50%, 0.9);
+  border-radius: 8px;
+  color: #0d0d0d;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 5px;
+  transition: opacity 0.2s;
+  width: 80px;
+}
+
+.heroCtaguide {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  margin: 16px 0;
+  transition: background-color 0.2s;
+  background-clip: padding-box;
+  background-color: hsla(60, 100%, 50%, 0.9);
+  border-radius: 8px;
+  color: #0d0d0d;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 5px;
+  transition: opacity 0.2s;
+  width: 80px;
+}
+
+.heroCtaportal {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  margin: 16px 0;
+  transition: background-color 0.2s;
+  background-clip: padding-box;
+  background-color: hsla(210, 100%, 50%, 0.9);
+  border-radius: 8px;
+  color: #0d0d0d;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 5px;
+  transition: opacity 0.2s;
+  width: 80px;
+}
+
+.heroCtadocks {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  margin: 16px 0;
+  transition: all 0.15s ease-in-out;
+  background-clip: padding-box;
+  background-color: hsla(34, 71%, 79%, 0.9);
+  border-radius: 8px;
+  color: #0d0d0d;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 5px;
+  transition: opacity 0.2s;
+  width: 80px;
+}
+
+
+.profileImage:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.homeLink {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.buttonLink:hover {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+/* Sreens less than 720px */
+@media (max-width: 720px) {
+  .nav {
+    flex-direction: column; /* Изменение направления флекс-контейнера на вертикальное */
+    align-items: stretch; /* Растягиваем элементы на весь контейнер */
+  }
+
+  .navLeft {
+    flex-direction: column; /* Изменение направления флекс-элементов в колонку */
+    gap: 8px;
+  }
+
+  .navMiddle {
+    margin-left: 0; /* Убираем отступ слева */
+    margin-top: 12px; /* Добавляем отступ сверху */
+    gap: 12px;
+  }
+
+  .navRight {
+    flex-direction: column; /* Изменение направления флекс-элементов в колонку */
+    gap: 8px;
+  }
+  
+  .profileImage {
+    margin-top: 0; /* Убираем отступ сверху */
+  }
+  
+  .heroCtaContainer {
+    flex-direction: column; /* Изменение направления флекс-контейнера на вертикальное */
+    gap: 12px;
+  }
+  
+  .heroCta, .heroCtasell, .heroCtaguide {
+    width: 100%; /* Растягиваем кнопки на весь контейнер */
+  }
+  .navConnect {
+    display: none !important;
+    
+  }
+}
