@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         // === Required information for connecting to the network === \\
         chainId: 3746287, // Chain ID of the network
         // Array of RPC URLs to use
-        rpc: ["http://109.201.241.47:8545/"],
+        rpc: ["https://froopyland.dymension.xyz/16/poltava_3746287-1-a/evmrpc"],
 
         // === Information for adding the network to your wallet (how it will appear for first time users) === \\
         // Information about the chain's native currency (i.e. the currency that is used to pay for gas)
