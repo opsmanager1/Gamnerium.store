@@ -198,7 +198,6 @@
 }
 
 /* Sreens less than 720px */
-@media (max-width: 720px) {
  @media screen and (max-width: 768px) {
   .navContainer {
     background-color: transparent !important; /* Цвет фона контейнера для мобильных устройств */
