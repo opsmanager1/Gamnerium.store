@@ -52,7 +52,7 @@
 }
 
 .nftContainer {
-  width: 17.8%;
+ width: 17.8%;
   margin: 8px;
   position: relative;
   overflow: hidden;
@@ -63,8 +63,12 @@
   display: flex;
   flex-direction: column;
   padding: 8px;
-  max-height: 382px;
+  max-height: 420px;
   transition: all 0.25s ease-in-out;
+  background-color: #121212; /* Цвет фона контейнера в стиле киберпанк */
+  color: #6c63ff; /* Цвет текста контейнера */
+  border: 2px solid #6c63ff; /* Цвет границы контейнера */
+  box-shadow: 0 0 10px rgba(108, 99, 255, 0.5);
 }
 
 .nftContainer:hover {
