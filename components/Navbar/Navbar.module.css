@@ -199,41 +199,65 @@
 
 /* Sreens less than 720px */
 @media (max-width: 720px) {
+ @media screen and (max-width: 768px) {
+  .navContainer {
+    background-color: transparent !important; /* Цвет фона контейнера для мобильных устройств */
+    padding: 10px; /* Внутренний отступ контейнера для мобильных устройств */
+  }
+
   .nav {
-    flex-direction: column; /* Èçìåíåíèå íàïðàâëåíèÿ ôëåêñ-êîíòåéíåðà íà âåðòèêàëüíîå */
-    align-items: stretch; /* Ðàñòÿãèâàåì ýëåìåíòû íà âåñü êîíòåéíåð */
+    flex-direction: column; /* Столбцовая ориентация для мобильных устройств */
+    padding: 3px; /* Внутренний отступ навигации для мобильных устройств */
   }
 
   .navLeft {
-    flex-direction: column; /* Èçìåíåíèå íàïðàâëåíèÿ ôëåêñ-ýëåìåíòîâ â êîëîíêó */
-    gap: 8px;
+    gap: 30px; /* Уменьшенный отступ между элементами для мобильных устройств */
+    margin-bottom: 10px; /* Дополнительный отступ снизу для мобильных устройств */
   }
 
   .navMiddle {
-    margin-left: 0; /* Óáèðàåì îòñòóï ñëåâà */
-    margin-top: 12px; /* Äîáàâëÿåì îòñòóï ñâåðõó */
-    gap: 12px;
+    margin-left: 0; /* Убрать левый отступ для мобильных устройств */
   }
 
   .navRight {
-    flex-direction: column; /* Èçìåíåíèå íàïðàâëåíèÿ ôëåêñ-ýëåìåíòîâ â êîëîíêó */
-    gap: 8px;
+    flex-direction: column; /* Столбцовая ориентация для мобильных устройств */
+    gap: 10px;
+    margin-right: 70px; /* Уменьшенный отступ между элементами для мобильных устройств */
   }
-  
+
   .profileImage {
-    margin-top: 0; /* Óáèðàåì îòñòóï ñâåðõó */
+    margin-top: 0; /* Убрать верхний отступ для мобильных устройств */
+     display: none !important;
   }
-  
+
   .heroCtaContainer {
-    flex-direction: column; /* Èçìåíåíèå íàïðàâëåíèÿ ôëåêñ-êîíòåéíåðà íà âåðòèêàëüíîå */
-    gap: 12px;
+    flex-direction: column; /* Столбцовая ориентация для мобильных устройств */
+    gap: 10px; /* Уменьшенный отступ между элементами для мобильных устройств */
   }
-  
-  .heroCta, .heroCtasell, .heroCtaguide {
-    width: 100%; /* Ðàñòÿãèâàåì êíîïêè íà âåñü êîíòåéíåð */
-  }
+
+  .heroCtaguide,
+  .heroCtaportal,
+  .heroCtadocks {
+       display: none !important;
+ }
   .navConnect {
-    display: none !important;
+  flex-direction: column;
+     width: 50%; /* Занимать всю ширину для мобильных устройств */
+    margin: 1px 0; /* Уменьшенные отступы для мобильных устройств */
     
   }
+  
+  .homeLink {
+    align-items: left;
+    justify-content: left;
+    display: flex;
+   }
+
+  .sliding-button,
+  .heroCta,
+  .heroCtasell{
+    width: 50%; /* Занимать всю ширину для мобильных устройств */
+    margin: 1px 0; /* Уменьшенные отступы для мобильных устройств */
+  }
+}
 }
