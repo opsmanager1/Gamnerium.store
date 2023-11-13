@@ -98,113 +98,88 @@
 }
 
 .heroCta {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
   position: relative;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 40px;
-  border: 3px solid hsla(0, 0%, 100%, 0.1);
-  margin: 16px 0;
-  transition: background-color 0.2s;
-  background-clip: padding-box;
-  background-color: hsla(120, 100%, 50%, 0.9);
-  border-radius: 8px;
-  color: #0d0d0d;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-  line-height: 5px;
-  transition: opacity 0.2s;
-  width: 80px;
+  padding: 7px 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 5px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 1px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
 
 .heroCtasell {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
   position: relative;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 40px;
-  border: 3px solid hsla(0, 0%, 100%, 0.1);
-  margin: 16px 0;
-  transition: background-color 0.2s;
-  background-clip: padding-box;
-  background-color: hsla(0, 100%, 50%, 0.9);
-  border-radius: 8px;
-  color: #0d0d0d;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-  line-height: 5px;
-  transition: opacity 0.2s;
-  width: 80px;
+  padding: 7px 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 5px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 1px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
 
 .heroCtaguide {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
   position: relative;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 40px;
-  border: 3px solid hsla(0, 0%, 100%, 0.1);
-  margin: 16px 0;
-  transition: background-color 0.2s;
-  background-clip: padding-box;
-  background-color: hsla(60, 100%, 50%, 0.9);
-  border-radius: 8px;
-  color: #0d0d0d;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-  line-height: 5px;
-  transition: opacity 0.2s;
-  width: 80px;
+  padding: 7px 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 5px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 1px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
 
 .heroCtaportal {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
   position: relative;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 40px;
-  border: 3px solid hsla(0, 0%, 100%, 0.1);
-  margin: 16px 0;
-  transition: background-color 0.2s;
-  background-clip: padding-box;
-  background-color: hsla(210, 100%, 50%, 0.9);
-  border-radius: 8px;
-  color: #0d0d0d;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-  line-height: 5px;
-  transition: opacity 0.2s;
-  width: 80px;
+  padding: 7px 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 5px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 1px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
 
 .heroCtadocks {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
   position: relative;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 40px;
-  border: 3px solid hsla(0, 0%, 100%, 0.1);
-  margin: 16px 0;
-  transition: all 0.15s ease-in-out;
-  background-clip: padding-box;
-  background-color: hsla(34, 71%, 79%, 0.9);
-  border-radius: 8px;
-  color: #0d0d0d;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-  line-height: 5px;
-  transition: opacity 0.2s;
-  width: 80px;
+  padding: 7px 20px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 5px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 1px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
 
 
@@ -225,37 +200,37 @@
 /* Sreens less than 720px */
 @media (max-width: 720px) {
   .nav {
-    flex-direction: column; /* Изменение направления флекс-контейнера на вертикальное */
-    align-items: stretch; /* Растягиваем элементы на весь контейнер */
+    flex-direction: column; /* Г€Г§Г¬ГҐГ­ГҐГ­ГЁГҐ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї ГґГ«ГҐГЄГ±-ГЄГ®Г­ГІГҐГ©Г­ГҐГ°Г  Г­Г  ГўГҐГ°ГІГЁГЄГ Г«ГјГ­Г®ГҐ */
+    align-items: stretch; /* ГђГ Г±ГІГїГЈГЁГўГ ГҐГ¬ ГЅГ«ГҐГ¬ГҐГ­ГІГ» Г­Г  ГўГҐГ±Гј ГЄГ®Г­ГІГҐГ©Г­ГҐГ° */
   }
 
   .navLeft {
-    flex-direction: column; /* Изменение направления флекс-элементов в колонку */
+    flex-direction: column; /* Г€Г§Г¬ГҐГ­ГҐГ­ГЁГҐ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї ГґГ«ГҐГЄГ±-ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў Гў ГЄГ®Г«Г®Г­ГЄГі */
     gap: 8px;
   }
 
   .navMiddle {
-    margin-left: 0; /* Убираем отступ слева */
-    margin-top: 12px; /* Добавляем отступ сверху */
+    margin-left: 0; /* Г“ГЎГЁГ°Г ГҐГ¬ Г®ГІГ±ГІГіГЇ Г±Г«ГҐГўГ  */
+    margin-top: 12px; /* Г„Г®ГЎГ ГўГ«ГїГҐГ¬ Г®ГІГ±ГІГіГЇ Г±ГўГҐГ°ГµГі */
     gap: 12px;
   }
 
   .navRight {
-    flex-direction: column; /* Изменение направления флекс-элементов в колонку */
+    flex-direction: column; /* Г€Г§Г¬ГҐГ­ГҐГ­ГЁГҐ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї ГґГ«ГҐГЄГ±-ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў Гў ГЄГ®Г«Г®Г­ГЄГі */
     gap: 8px;
   }
   
   .profileImage {
-    margin-top: 0; /* Убираем отступ сверху */
+    margin-top: 0; /* Г“ГЎГЁГ°Г ГҐГ¬ Г®ГІГ±ГІГіГЇ Г±ГўГҐГ°ГµГі */
   }
   
   .heroCtaContainer {
-    flex-direction: column; /* Изменение направления флекс-контейнера на вертикальное */
+    flex-direction: column; /* Г€Г§Г¬ГҐГ­ГҐГ­ГЁГҐ Г­Г ГЇГ°Г ГўГ«ГҐГ­ГЁГї ГґГ«ГҐГЄГ±-ГЄГ®Г­ГІГҐГ©Г­ГҐГ°Г  Г­Г  ГўГҐГ°ГІГЁГЄГ Г«ГјГ­Г®ГҐ */
     gap: 12px;
   }
   
   .heroCta, .heroCtasell, .heroCtaguide {
-    width: 100%; /* Растягиваем кнопки на весь контейнер */
+    width: 100%; /* ГђГ Г±ГІГїГЈГЁГўГ ГҐГ¬ ГЄГ­Г®ГЇГЄГЁ Г­Г  ГўГҐГ±Гј ГЄГ®Г­ГІГҐГ©Г­ГҐГ° */
   }
   .navConnect {
     display: none !important;
