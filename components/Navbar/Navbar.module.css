@@ -102,15 +102,15 @@
   color: white;
   display: inline-block;
   position: relative;
-  padding: 15px 30px;
+  padding: 7px 20px;
   border: 1px solid;
   border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
   border-image-slice: 1;
-  margin: 10px 20px;
+  margin: 5px 20px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   overflow: hidden;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
 .slidingbutton1:before {
