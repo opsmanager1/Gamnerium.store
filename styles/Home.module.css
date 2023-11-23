@@ -89,12 +89,22 @@
   letter-spacing: -0.05em;
 }
 
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
 .heroTitleGradient {
   padding-right: 12px;
   font-weight: 700;
    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.9), hsla(60, 100%, 50%, 0.9));
-  -webkit-background-clip: text; /* Для поддержки веб-кит браузерами, такими как Chrome и Safari */
+  -webkit-background-clip: text; /* Ж’Р»в‚¬ РїРѕРґРґРµСЂР¶РєРё РІРµР±-РєРёС‚ Р±СЂР°СѓР·РµСЂР°РјРё, С‚Р°РєРёРјРё РєР°Рє Chrome Рё Safari */
   color: transparent;
+  border-right: 2px solid; /* РёРјРёС‚Р°С†РёСЏ РєСѓСЂСЃРѕСЂР° */
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: typing 4s steps(40, end);
 }
 
 .heroSubtitle {
