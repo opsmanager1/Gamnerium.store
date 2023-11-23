@@ -23,9 +23,7 @@ export function Navbar() {
             />
           </Link>
           <div className={styles.navMiddle}>
-            <Link className={styles.heroCta} href="/buy">
-                  Buy
-                </Link>
+            <a href="/buy" class="sliding-button1">Buy</a>
             <Link className={styles.heroCtasell} href="/sell">
               Sell
             </Link>
