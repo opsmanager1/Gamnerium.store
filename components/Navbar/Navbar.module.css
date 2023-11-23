@@ -97,7 +97,7 @@
   gap: 16px;
 }
 
-.sliding-button1 {
+.slidingbutton1 {
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -113,7 +113,7 @@
   letter-spacing: 2px;
   transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
-.sliding-button1:before {
+.slidingbutton1:before {
   content: "";
   position: absolute;
   left: 0;
@@ -125,10 +125,10 @@
   background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
   transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
-.sliding-button1:hover {
+.slidingbutton1:hover {
   background: rgba(255, 255, 255, 0);
 }
-.sliding-button1:hover:before {
+.slidingbutton1:hover:before {
   bottom: 0%;
   top: auto;
   height: 100%;
