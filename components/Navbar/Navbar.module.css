@@ -150,6 +150,26 @@
   letter-spacing: 1px;
   transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
+.heroCtasell:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  color: white;
+  background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.heroCtasell:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.heroCtasell:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
 
 .heroCtaguide {
   text-decoration: none;
@@ -166,6 +186,26 @@
   overflow: hidden;
   letter-spacing: 1px;
   transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.heroCtaguide:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  color: white;
+  background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.heroCtaguide:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.heroCtaguide:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
 }
 
 .heroCtaportal {
@@ -184,6 +224,26 @@
   letter-spacing: 1px;
   transition: .8s cubic-bezier(.165, .84, .44, 1);
 }
+.heroCtaportal:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  color: white;
+  background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.heroCtaportal:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.heroCtaportal:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
 
 .heroCtadocks {
   text-decoration: none;
@@ -200,6 +260,26 @@
   overflow: hidden;
   letter-spacing: 1px;
   transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.heroCtadocks:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  color: white;
+  background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.heroCtadocks:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.heroCtadocks:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
 }
 
 
