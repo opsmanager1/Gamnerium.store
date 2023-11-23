@@ -23,8 +23,8 @@ export function Navbar() {
             />
           </Link>
           <div className={styles.navMiddle}>
-            <Link className="sliding-button1" href="/buy">
-            <a>Buy</a>
+            <Link className={styles.slidingbutton1} href="/buy">
+            Buy
             </Link>      
             <Link className={styles.heroCtasell} href="/sell">
               Sell
