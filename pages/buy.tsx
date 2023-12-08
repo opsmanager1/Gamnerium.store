@@ -7,6 +7,7 @@ import styles from "../styles/Home.module.css";
 import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import backgroundImage from '../public/DYMBACK.png';
 
 export default function Buy() {
   // Load all of the NFTs from the NFT Collection
