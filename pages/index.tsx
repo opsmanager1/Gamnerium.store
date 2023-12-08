@@ -1,9 +1,8 @@
-import type { NextPage } from "next";
-import Link from "next/link";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import type { NextPage } from 'next';
+import Link from 'next/link';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
 import backgroundImage from '../public/DYMBACK.png';
-
 
 /**
  * Landing page with a simple gradient background and a hero asset.
@@ -11,7 +10,24 @@ import backgroundImage from '../public/DYMBACK.png';
  */
 const Home: NextPage = () => {
   return (
-    <div className={styles.backgroundContainer}>
+     //<div
+      //style={{ 
+        // use the src property of the image object
+       // backgroundImage: `url(${backgroundImage.src})`,
+        //background-image: url('../public/DYMBACK.png');
+        // other styles
+      //  backgroundPosition: "center",
+      //  backgroundSize: "cover",
+      //  backgroundRepeat: "no-repeat",
+      //  width: "100vw",
+       // overflow: 'hidden', // Set overflow to hidden
+      //  height: "100vh",
+      //  display: 'flex',
+      //  alignItems: 'center',
+      //  justifyContent: 'center'
+     // }}
+  //  >
+   <div className={styles.backgroundContainer}>
      <div className={styles.contentContainer}>
         <Image
           src={backgroundImage}
@@ -20,7 +36,7 @@ const Home: NextPage = () => {
           objectFit="cover"
         />
       <div className={styles.content}>
-        <div className={styles.hero}>
+       <div className={styles.hero}>
           <div className={styles.heroBackground}>
             <div className={styles.heroBackgroundInner}>
               <Image
@@ -35,9 +51,9 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.heroAssetFrame}>
             <Image
-              src="/nyan.gif"
-              width={720}
-              height={250}
+              src="/hero-asset.png"
+              width={860}
+              height={540}
               alt="Hero asset, NFT marketplace"
               quality={100}
               className={styles.heroAsset}
