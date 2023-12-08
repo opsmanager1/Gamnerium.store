@@ -15,7 +15,14 @@ export default function Buy() {
   const { data, isLoading } = useNFTs(contract);
 
   return (
-   <Container maxWidth="lg">
+    <div className={styles.backgroundContainer}>
+     <div className={styles.contentContainer}>
+        <Image
+          src={backgroundImage}
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+        />
    <div className={styles.content}>
    <div className={styles.hero}>
      <div className={styles.heroBackground}>
@@ -40,7 +47,7 @@ export default function Buy() {
         }
       />
       </div>
-      </div>
-       </Container>
+    </div>
+   </div>
   );
 }
