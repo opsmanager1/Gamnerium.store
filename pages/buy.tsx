@@ -14,13 +14,15 @@ export default function Buy() {
 
   return (
     <div className={styles.backgroundContainer}>
+       <div className={styles.contentContainer}>
         <Image
           src={backgroundImage}
           alt="Background Image"
           layout="fill"
           objectFit="cover"
         />
-    <div className={styles.content}>
+      <div className={styles.content}>
+       <div className={styles.hero}>
       <h1>Buy NFTs</h1>
       <p>Browse which NFTs are available from the collection.</p>
       <NFTGrid
@@ -30,7 +32,9 @@ export default function Buy() {
           "Looks like there are no NFTs in this collection. Did you import your contract on the thirdweb dashboard? https://thirdweb.com/dashboard"
         }
       />
+          </div>
+        </div>
      </div>
-  </div>
+   </div>
   );
 }
