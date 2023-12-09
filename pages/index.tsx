@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           <div className={styles.heroAssetFrame}>
             <Image
               style={{ marginTop: 120 }}
-              src="/hero-asset.gif"
+              src="/The future is modular(1).gif"
               width={860}
               height={540}
               alt="Hero asset, NFT marketplace"
