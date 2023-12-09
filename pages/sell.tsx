@@ -37,7 +37,7 @@ export default function Sell() {
       <div className={styles.hero}>
       <div className={styles.heroAssetFrame}>
             <Image
-              src="/BuyNFTs2.gif"
+              src="/SellNFTs.gif"
               width={350}
               height={60}
               alt="Hero asset, NFT marketplace"
