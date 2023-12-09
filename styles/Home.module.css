@@ -113,9 +113,9 @@
 .heroTitleGradient {
   padding-right: 12px;
   font-weight: 700;
-   background: #000000 !important;
+   background: transparent;
   -webkit-background-clip: text; /* ƒл€ поддержки веб-кит браузерами, такими как Chrome и Safari */
-  color: transparent;
+  color:  #000000 !important;
   border-right: 2px solid; /* имитация курсора */
   white-space: nowrap;
   padding-top: 50px;
