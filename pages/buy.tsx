@@ -10,7 +10,13 @@ export default function Buy() {
   const { data, isLoading } = useNFTs(contract);
 
   return (
-    <Container maxWidth="lg">
+    <div className={styles.backgroundContainer}>
+        <Image
+          src={backgroundImage}
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+        />
       <h1>Buy NFTs</h1>
       <p>Browse which NFTs are available from the collection.</p>
       <NFTGrid
