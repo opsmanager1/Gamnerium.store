@@ -22,7 +22,6 @@ export default function Buy() {
           layout="fill"
           objectFit="cover"
         />
-      <div className={styles.hero}>
       <div className={styles.content}>
       <Container maxWidth="lg">
       <h1>Buy NFTs</h1>
@@ -35,7 +34,6 @@ export default function Buy() {
         }
       />
          </Container>
-        </div>
       </div>
     </div>
    </div>
