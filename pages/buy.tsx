@@ -24,6 +24,7 @@ export default function Buy() {
       <div className={styles.heroBodyContainer}>
        <div className={styles.heroBody}>
       <Container maxWidth="lg">
+      <div className={styles.hero}>
       <div className={styles.heroAssetFrame}>
             <Image
               src="/BuyNFTs2.gif"
@@ -41,6 +42,7 @@ export default function Buy() {
           "Looks like there are no NFTs in this collection. Did you import your contract on the thirdweb dashboard? https://thirdweb.com/dashboard"
         }
       />
+        </div>
          </Container>
        </div>
      </div> 
