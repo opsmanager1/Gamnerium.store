@@ -26,6 +26,8 @@
   height: 100%;
   maxWidth: 100vw;
   maxHeight: 100vh;
+  padding-top: 1100px;
+  padding-bottom: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
