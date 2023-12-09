@@ -3,6 +3,7 @@ import React from "react";
 import NFTGrid from "../components/NFT/NFTGrid";
 import { NFT_COLLECTION_ADDRESS } from "../const/contractAddresses";
 import styles from '../styles/BuypageCSS.css';
+import backgroundImage from '../public/DYMBACK2.png';
 
 export default function Buy() {
   // Load all of the NFTs from the NFT Collection
