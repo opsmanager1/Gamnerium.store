@@ -118,6 +118,7 @@
   color: transparent;
   border-right: 2px solid; /* имитация курсора */
   white-space: nowrap;
+  padding-top: 50px;
   overflow: hidden;
   display: inline-block;
   animation: typing 4s steps(40, end);
