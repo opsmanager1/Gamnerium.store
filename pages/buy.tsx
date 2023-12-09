@@ -26,7 +26,7 @@ export default function Buy() {
       <Container maxWidth="lg">
       <div className={styles.heroAssetFrame}>
             <Image
-              src="/BuyNFTs.gif"
+              src="/BuyNFTs2.gif"
               width={350}
               height={60}
               alt="Hero asset, NFT marketplace"
