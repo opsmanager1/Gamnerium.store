@@ -4,7 +4,7 @@ import Image from 'next/image';
 import NFTGrid from "../components/NFT/NFTGrid";
 import { NFT_COLLECTION_ADDRESS } from "../const/contractAddresses";
 //import styles from '../styles/BuypageCSS.css';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Buypage.module.css';
 import backgroundImage from '../public/DYMBACK2.png';
 
 export default function Buy() {
