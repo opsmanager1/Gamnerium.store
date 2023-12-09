@@ -7,6 +7,7 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import styles from "../styles/guide.module.css";
 import Image from "next/image";
+import backgroundImage from '../public/DYMBACK3.png';
 
 export default function Buy() {
   // Load all of the NFTs from the NFT Collection
@@ -14,21 +15,27 @@ export default function Buy() {
   const { data, isLoading } = useNFTs(contract);
 
   return (
-    <Container maxWidth="lg">
-    <div className={styles.content}>
-   <div className={styles.hero}>
-     <div className={styles.heroBackground}>
-      <div className={styles.heroBackgroundInner}>
-              <Image
-                src="/hero-gradient.png"
-                width={1390}
-                height={1390}
-                alt="Background gradient from red to blue"
-                quality={100}
-                className={styles.gradient}
-              />
-            </div>
-          </div>
+  <div className={styles.backgroundContainer}>
+        <Image
+          src={backgroundImage}
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+        />
+      <div className={styles.heroBodyContainer}>
+       <div className={styles.heroBody}>
+      <Container maxWidth="lg">
+      <div className={styles.hero}>
+      <div className={styles.heroAssetFrame}>
+            <Image
+              src="/BuyNFTs2.gif"
+              width={350}
+              height={60}
+              alt="Hero asset, NFT marketplace"
+              quality={100}
+              className={styles.heroAsset}
+            />
+        </div>
       <h1>Add Gamnerium Network configurations to Metamask</h1>
       <p className={styles.heroSubtitle}>
         Name: Gamnerium
@@ -72,7 +79,8 @@ export default function Buy() {
       NFT collection contract address: 0xA96eeD0Ae9fb6D274E896227d4Ba0F0ECb043C1C
       </p>
          </div>
-          </div>
-    </Container>
-  );
+      </Container>
+       </div>
+     </div> 
+   </div>
 }
