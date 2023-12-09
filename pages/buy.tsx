@@ -15,13 +15,13 @@ export default function Buy() {
 
   return (
     <div className={styles.backgroundContainer}>
-       <div className={styles.contentContainer}>
         <Image
           src={backgroundImage}
           alt="Background Image"
           layout="fill"
           objectFit="cover"
         />
+      <div className={styles.content}>
       <Container maxWidth="lg">
       <h1>Buy NFTs</h1>
       <p>Browse which NFTs are available from the collection.</p>
