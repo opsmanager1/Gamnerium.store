@@ -29,6 +29,7 @@ export default function Buy() {
               src="/BuyNFTs.gif"
               width={350}
               height={60}
+              alt="Hero asset, NFT marketplace"
               quality={100}
               className={styles.heroAsset}
             />
