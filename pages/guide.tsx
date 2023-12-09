@@ -83,4 +83,5 @@ export default function Buy() {
        </div>
      </div> 
    </div>
+  );
 }
