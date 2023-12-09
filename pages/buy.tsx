@@ -21,7 +21,8 @@ export default function Buy() {
           layout="fill"
           objectFit="cover"
         />
-      <div className={styles.content}>
+      <div className={styles.heroBodyContainer}>
+       <div className={styles.heroBody}>
       <Container maxWidth="lg">
       <h1>Buy NFTs</h1>
       <p>Browse which NFTs are available from the collection.</p>
@@ -33,7 +34,8 @@ export default function Buy() {
         }
       />
          </Container>
-    </div>
+       </div>
+     </div> 
    </div>
   );
 }
