@@ -22,8 +22,7 @@ export default function Buy() {
           layout="fill"
           objectFit="cover"
         />
-      <div className={styles.content}>
-       <div className={styles.hero}>
+      <Container maxWidth="lg">
       <h1>Buy NFTs</h1>
       <p>Browse which NFTs are available from the collection.</p>
       <NFTGrid
@@ -33,8 +32,7 @@ export default function Buy() {
           "Looks like there are no NFTs in this collection. Did you import your contract on the thirdweb dashboard? https://thirdweb.com/dashboard"
         }
       />
-          </div>
-        </div>
+       </Container>
      </div>
    </div>
   );
