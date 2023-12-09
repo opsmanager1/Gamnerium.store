@@ -11,6 +11,9 @@ import { NFT_COLLECTION_ADDRESS } from "../const/contractAddresses";
 import tokenPageStyles from "../styles/Token.module.css";
 import { NFT as NFTType } from "@thirdweb-dev/sdk";
 import SaleInfo from "../components/SaleInfo/SaleInfo";
+import Image from 'next/image';
+import styles from '../styles/Buypage.module.css';
+import backgroundImage from '../public/DYMBACK3.png';
 
 export default function Sell() {
   // Load all of the NFTs from the NFT Collection
