@@ -47,7 +47,6 @@ export default function Sell() {
         </div>
       {!selectedNft ? (
         <>
-          <p>Select which NFT you&rsquo;d like to sell below.</p>
           <NFTGrid
             data={data}
             isLoading={isLoading}
