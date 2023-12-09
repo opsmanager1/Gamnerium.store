@@ -1,1 +1,21 @@
 
+.container {
+ width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  contain: paint;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  padding: 20px; 
+}
+
+.backgroundContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
