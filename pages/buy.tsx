@@ -33,7 +33,6 @@ export default function Buy() {
               className={styles.heroAsset}
             />
         </div>
-      <p>Browse which NFTs are available from the collection.</p>
       <NFTGrid
         data={data}
         isLoading={isLoading}
