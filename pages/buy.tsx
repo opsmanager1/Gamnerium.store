@@ -24,7 +24,15 @@ export default function Buy() {
       <div className={styles.heroBodyContainer}>
        <div className={styles.heroBody}>
       <Container maxWidth="lg">
-      <h1>Buy NFTs</h1>
+      <div className={styles.heroAssetFrame}>
+            <Image
+              src="/BuyNFTs.gif"
+              width={350}
+              height={60}
+              quality={100}
+              className={styles.heroAsset}
+            />
+        </div>
       <p>Browse which NFTs are available from the collection.</p>
       <NFTGrid
         data={data}
