@@ -20,7 +20,7 @@ export default function Buy() {
           layout="fill"
           objectFit="cover"
         />
-    <div className={styles.contentContainer}>
+    <div className={styles.content}>
       <h1>Buy NFTs</h1>
       <p>Browse which NFTs are available from the collection.</p>
       <NFTGrid
