@@ -51,6 +51,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.heroAssetFrame}>
             <Image
+              margin-top={120}
               src="/hero-asset.gif"
               width={860}
               height={540}
