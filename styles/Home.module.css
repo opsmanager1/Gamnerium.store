@@ -344,22 +344,75 @@
 
 /* Less than 640 px */
 @media (max-width: 640px) {
-  .gradient {
-    margin-top: 256px;
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 10px; /* Уменьшим отступы */
+  }
+
+  .backgroundContainer {
+    position: static; /* Изменяем позицию на статическую */
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    padding: 10px; /* Уменьшим отступы */
+  }
+
+  .hero {
+    padding-bottom: 64px; /* Уменьшим отступы */
+  }
+
+  .heroBackground {
+    position: static; /* Изменяем позицию на статическую */
+    width: 100%;
+    max-width: none; /* Снимаем ограничение максимальной ширины */
+    height: auto;
+  }
+
+  .heroBackgroundInner {
+    top: 0;
+    left: 0;
+    transform: none;
   }
 
   .heroTitle {
-    margin-top: -48px;
-    font-size: 38px;
+    font-size: 24px; /* Уменьшим размер заголовка */
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .heroSubtitle {
+    font-size: 14px; /* Уменьшим размер подзаголовка */
+    margin-bottom: 20px;
   }
 
   .heroCtaContainer {
-    flex-direction: column;
-    gap: 0px;
+    flex-direction: column; /* Изменяем направление контейнера */
+    gap: 10px; /* Уменьшим промежуток между элементами */
   }
 
-  .heroAsset {
-    max-height: 270px;
+  .codeButton {
+    width: 100%; /* Занимаем 100% ширины родителя */
+  }
+
+  .heroCta {
+    width: 100%; /* Занимаем 100% ширины родителя */
+  }
+
+  .secondaryCta {
+    width: 100%; /* Занимаем 100% ширины родителя */
+    margin-top: 10px; /* Увеличим отступ сверху */
+  }
+
+  .tabs {
+    flex-direction: column; /* Изменяем направление контейнера */
+    gap: 10px; /* Уменьшим промежуток между вкладками */
+  }
+
+  .tab {
+    width: 100%; /* Занимаем 100% ширины родителя */
   }
 }
 
