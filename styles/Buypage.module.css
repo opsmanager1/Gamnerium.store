@@ -93,6 +93,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 1150px; /* Укажите максимальную высоту контейнера, при которой появится прокрутка */
+  overflow-y: auto;
 }
 
 .heroTitle {
