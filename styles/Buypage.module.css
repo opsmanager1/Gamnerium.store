@@ -26,8 +26,6 @@
   height: 100%;
   maxWidth: 100vw;
   maxHeight: 100vh;
-  padding-bottom: 350px;
-  padding-top: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +36,8 @@
 }
 
 .hero {
-  padding-bottom: 128px;
+  padding-top: 1100px;
+  padding-bottom: 350px;
 }
 
 .heroBackground {
