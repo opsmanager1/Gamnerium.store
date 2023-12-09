@@ -24,8 +24,27 @@ export default function Sell() {
   const [selectedNft, setSelectedNft] = useState<NFTType>();
 
   return (
-    <Container maxWidth="lg">
-      <h1>Sell NFTs</h1>
+    <div className={styles.backgroundContainer}>
+        <Image
+          src={backgroundImage}
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+        />
+      <div className={styles.heroBodyContainer}>
+       <div className={styles.heroBody}>
+      <Container maxWidth="lg">
+      <div className={styles.hero}>
+      <div className={styles.heroAssetFrame}>
+            <Image
+              src="/BuyNFTs2.gif"
+              width={350}
+              height={60}
+              alt="Hero asset, NFT marketplace"
+              quality={100}
+              className={styles.heroAsset}
+            />
+        </div>
       {!selectedNft ? (
         <>
           <p>Select which NFT you&rsquo;d like to sell below.</p>
@@ -74,6 +93,10 @@ export default function Sell() {
           </div>
         </div>
       )}
+        </div>
     </Container>
+       </div>
+     </div> 
+   </div>
   );
 }
