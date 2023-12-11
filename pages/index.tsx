@@ -64,7 +64,7 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Gamnerium NFT Marketplaces
+                  Gamnerium NFT Marketplace
                 </span>
                 <br />
                 <span className={styles.heroTitleGradient}>
