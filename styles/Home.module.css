@@ -116,7 +116,7 @@
    background: transparent;
   -webkit-background-clip: text; /* ƒл€ поддержки веб-кит браузерами, такими как Chrome и Safari */
   color:  #000000 !important;
-  border-right: 2px solid; /* имитация курсора */
+  /*border-right: 2px solid; /* имитация курсора */
   white-space: nowrap;
   padding-top: 50px;
   overflow: hidden;
